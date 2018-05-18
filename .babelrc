@@ -6,10 +6,17 @@
       {
         "loose": true,
         "targets": {
-          "browsers": ["last 2 versions", "ie >= 8"]
+          "browsers": [
+            "last 2 versions",
+            "ie >= 8"
+          ]
         }
       }
-    ]
+    ],
+    "stage-0"
   ],
-  "plugins": ["transform-runtime"]
+  "plugins": [
+    "transform-runtime",
+    "transform-decorators-legacy"
+  ]
 }
